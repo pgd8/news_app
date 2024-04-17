@@ -13,5 +13,6 @@ class MyTheme{
       elevation: 20,
       shadowColor: Colors.grey
     ),
+    // scaffoldBackgroundColor: Colors.transparent,
   );
 }
