@@ -9,7 +9,10 @@ class Logo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      child: Image.asset(imagePath,fit: BoxFit.fill,),
+      child: Image.asset(
+        imagePath,
+        fit: BoxFit.fill,
+      ),
     );
   }
 }

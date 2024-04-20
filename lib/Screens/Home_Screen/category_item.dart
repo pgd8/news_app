@@ -20,10 +20,10 @@ class CategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ScreenUtil.init(context, designSize: const Size(412, 870));
-    if(model.categoryName == titles[0]){
+    if (model.categoryName == titles[0]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xffC91C22),
+          color: const Color(0xffC91C22),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
@@ -41,10 +41,10 @@ class CategoryItem extends StatelessWidget {
         ),
       );
     }
-    if(model.categoryName == titles[1]){
+    if (model.categoryName == titles[1]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xff003E90),
+          color: const Color(0xff003E90),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
@@ -62,10 +62,10 @@ class CategoryItem extends StatelessWidget {
         ),
       );
     }
-    if(model.categoryName == titles[2]){
+    if (model.categoryName == titles[2]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xffED1E79),
+          color: const Color(0xffED1E79),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
@@ -83,10 +83,10 @@ class CategoryItem extends StatelessWidget {
         ),
       );
     }
-    if(model.categoryName == titles[3]){
+    if (model.categoryName == titles[3]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xffCF7E48),
+          color: const Color(0xffCF7E48),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
@@ -103,10 +103,10 @@ class CategoryItem extends StatelessWidget {
         ),
       );
     }
-    if(model.categoryName == titles[4]){
+    if (model.categoryName == titles[4]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xff4882CF),
+          color: const Color(0xff4882CF),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
@@ -124,10 +124,10 @@ class CategoryItem extends StatelessWidget {
         ),
       );
     }
-    if(model.categoryName == titles[5]){
+    if (model.categoryName == titles[5]) {
       return Container(
         decoration: BoxDecoration(
-          color: Color(0xffF2D352),
+          color: const Color(0xffF2D352),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.r),
               topRight: Radius.circular(25.r),
