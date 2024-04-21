@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:newsapp/Screens/Settings_Screen/app_mode_menu.dart';
 import 'package:newsapp/Screens/Settings_Screen/language_menu.dart';
 import 'package:newsapp/Shared_Components/background.dart';
@@ -21,9 +22,12 @@ class SettingsScreen extends StatelessWidget {
           child: Stack(
             children: [
               Background(),
-              const Column(children: [
-                LanguageMenu(),
-                AppModeMenu(),
+               Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                const LanguageMenu(),
+                SizedBox(height: 0.03.sh,),
+                const AppModeMenu(),
               ]),
             ],
           ),

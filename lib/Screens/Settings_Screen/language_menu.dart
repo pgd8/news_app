@@ -7,7 +7,10 @@ class LanguageMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: DropdownMenu(label: const Text("Language"), dropdownMenuEntries: [
+      child: DropdownMenu(
+          label: const Text("Language"),
+          width: 0.5.sw,
+          dropdownMenuEntries: [
         DropdownMenuEntry(
             value: TextButton(
               onPressed: () {},

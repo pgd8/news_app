@@ -7,7 +7,10 @@ class AppModeMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: DropdownMenu(label: const Text("Mode"), dropdownMenuEntries: [
+      child: DropdownMenu(
+          label: const Text("Mode"),
+          width: 0.5.sw,
+          dropdownMenuEntries: [
         DropdownMenuEntry(
             value: TextButton(
               onPressed: () {},
