@@ -11,19 +11,19 @@ class LanguageMenu extends StatelessWidget {
           label: const Text("Language"),
           width: 0.5.sw,
           dropdownMenuEntries: [
-        DropdownMenuEntry(
-            value: TextButton(
-              onPressed: () {},
-              child: const Text(""),
-            ),
-            label: "English"),
-        DropdownMenuEntry(
-            value: TextButton(
-              onPressed: () {},
-              child: const Text(""),
-            ),
-            label: 'عربي'),
-      ]),
+            DropdownMenuEntry(
+                value: TextButton(
+                  onPressed: () {},
+                  child: const Text(""),
+                ),
+                label: "English"),
+            DropdownMenuEntry(
+                value: TextButton(
+                  onPressed: () {},
+                  child: const Text(""),
+                ),
+                label: 'عربي'),
+          ]),
     );
   }
 }

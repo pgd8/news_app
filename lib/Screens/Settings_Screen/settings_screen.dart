@@ -22,11 +22,11 @@ class SettingsScreen extends StatelessWidget {
           child: Stack(
             children: [
               Background(),
-               Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
+              Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                 const LanguageMenu(),
-                SizedBox(height: 0.03.sh,),
+                SizedBox(
+                  height: 0.03.sh,
+                ),
                 const AppModeMenu(),
               ]),
             ],

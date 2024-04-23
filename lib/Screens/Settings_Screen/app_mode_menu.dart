@@ -11,19 +11,19 @@ class AppModeMenu extends StatelessWidget {
           label: const Text("Mode"),
           width: 0.5.sw,
           dropdownMenuEntries: [
-        DropdownMenuEntry(
-            value: TextButton(
-              onPressed: () {},
-              child: const Text(""),
-            ),
-            label: "Light"),
-        DropdownMenuEntry(
-            value: TextButton(
-              onPressed: () {},
-              child: const Text(""),
-            ),
-            label: 'Dark'),
-      ]),
+            DropdownMenuEntry(
+                value: TextButton(
+                  onPressed: () {},
+                  child: const Text(""),
+                ),
+                label: "Light"),
+            DropdownMenuEntry(
+                value: TextButton(
+                  onPressed: () {},
+                  child: const Text(""),
+                ),
+                label: 'Dark'),
+          ]),
     );
   }
 }
